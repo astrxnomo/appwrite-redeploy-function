@@ -1,8 +1,7 @@
-import { Client, Sites, VCSDeploymentType } from 'node-appwrite';
+const { Client, Sites, VCSDeploymentType } = require('node-appwrite');
 
-export default async ({ req, res, log, error }) => {
+module.exports = async function ({ req, res, log, error }) {
   try {
-
     const client = new Client()
       .setEndpoint(req.headers['x-appwrite-endpoint'])
       .setProject(req.headers['x-appwrite-project'])
