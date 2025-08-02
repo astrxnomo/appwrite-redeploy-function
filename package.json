@@ -1,8 +1,8 @@
 {
-  "name": "starter-template",
+  "name": "appwrite-redeploy-function",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
+  "main": "src/main.ts",
   "type": "module",
   "scripts": {
     "format": "prettier --write ."

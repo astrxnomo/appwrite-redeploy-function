@@ -1,48 +1,27 @@
-# ⚡ Node.js Starter Function
+# Appwrite Redeploy Function
 
-A simple starter function. Edit `src/main.js` to get started and create something awesome! 🚀
+Este proyecto contiene una función para redeploy automático en Appwrite.
 
-## 🧰 Usage
+## Características
 
-### GET /ping
+- Redeploy de funciones en Appwrite.
+- Fácil integración y configuración.
 
-- Returns a "Pong" message.
+## Instalación
 
-**Response**
+1. Clona el repositorio:
+  ```bash
+  git clone https://github.com/tu-usuario/appwrite-redeploy-function.git
+  ```
+2. Instala las dependencias:
+  ```bash
+  npm install
+  ```
 
-Sample `200` Response:
+## Uso
 
-```text
-Pong
-```
+Configura tus variables de entorno y ejecuta la función según la documentación de Appwrite.
 
-### GET, POST, PUT, PATCH, DELETE /
+## Contribuir
 
-- Returns a "Learn More" JSON response.
-
-**Response**
-
-Sample `200` Response:
-
-```json
-{
-  "motto": "Build like a team of hundreds_",
-  "learn": "https://appwrite.io/docs",
-  "connect": "https://appwrite.io/discord",
-  "getInspired": "https://builtwith.appwrite.io"
-}
-```
-
-## ⚙️ Configuration
-
-| Setting           | Value         |
-| ----------------- | ------------- |
-| Runtime           | Node (18.0)   |
-| Entrypoint        | `src/main.js` |
-| Build Commands    | `npm install` |
-| Permissions       | `any`         |
-| Timeout (Seconds) | 15            |
-
-## 🔒 Environment Variables
-
-No environment variables required.
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request.
