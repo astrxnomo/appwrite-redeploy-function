@@ -1,4 +1,4 @@
-const { Client, Sites, VCSDeploymentType } = require('node-appwrite');
+import { Client, Sites, VCSDeploymentType } from 'node-appwrite';
 
 export default async ({ req, res, log, error }) => {
   try {
