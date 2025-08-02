@@ -1,6 +1,6 @@
 const { Client, Sites, VCSDeploymentType } = require('node-appwrite');
 
-module.exports = async function ({ req, res, log, error }) {
+export default async ({ req, res, log, error }) => {
   try {
     const notionSecret = process.env.NOTION_SECRET;
 
